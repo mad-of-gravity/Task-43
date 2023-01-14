@@ -7,4 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  document.title.textContent = "One new message";
 });
