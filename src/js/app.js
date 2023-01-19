@@ -7,6 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
-
-  document.title.textContent = "One new message";
+  document.title = "No new messages";
+  setInterval(() => document.title = "One new message", 3000);
 });
