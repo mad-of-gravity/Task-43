@@ -8,5 +8,5 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 
-  document.title.textContent = "One new message";
+  setInterval(() => document.title.textContent = "One new message", 3000);
 });
